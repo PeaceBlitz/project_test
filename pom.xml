@@ -53,7 +53,7 @@
 		<dependency>
 			<groupId>com.baiwang.cloud</groupId>
 			<artifactId>bwtools-common</artifactId>
-			<version>1.0.0.0</version>
+			<version>1.0.0.1</version>
 		</dependency>
 	</dependencies>
 	<distributionManagement>
