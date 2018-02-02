@@ -16,7 +16,7 @@
 		<file>${LOG_HOME}/${LOG_SYSTEM}-service.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志文件输出的文件名 -->
-			<FileNamePattern>${LOG_HOME}/${LOG_SYSTEM}-service-%d{yyyy-MM-dd}.log</FileNamePattern>
+			<FileNamePattern>${LOG_HOME}/${LOG_SYSTEM}-service-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">       
             	<maxFileSize>500MB</maxFileSize>      
         	</timeBasedFileNamingAndTriggeringPolicy>   
@@ -34,7 +34,7 @@
 		<file>${LOG_HOME}/${LOG_SYSTEM}-dao.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志文件输出的文件名 -->
-			<FileNamePattern>${LOG_HOME}/${LOG_SYSTEM}-dao-%d{yyyy-MM-dd}.log</FileNamePattern>
+			<FileNamePattern>${LOG_HOME}/${LOG_SYSTEM}-dao-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">       
             	<maxFileSize>500MB</maxFileSize>      
         	</timeBasedFileNamingAndTriggeringPolicy>   
@@ -52,7 +52,7 @@
 		<file>${LOG_HOME}/${LOG_SYSTEM}-controller.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志文件输出的文件名 -->
-			<FileNamePattern>${LOG_HOME}/${LOG_SYSTEM}-controller-%d{yyyy-MM-dd}.log</FileNamePattern>
+			<FileNamePattern>${LOG_HOME}/${LOG_SYSTEM}-controller-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">       
             	<maxFileSize>500MB</maxFileSize>      
         	</timeBasedFileNamingAndTriggeringPolicy>   
@@ -70,7 +70,7 @@
 		<file>${LOG_HOME}/${LOG_SYSTEM}-integration.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志文件输出的文件名 -->
-			<FileNamePattern>${LOG_HOME}/${LOG_SYSTEM}-integration-%d{yyyy-MM-dd}.log</FileNamePattern>
+			<FileNamePattern>${LOG_HOME}/${LOG_SYSTEM}-integration-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">       
             	<maxFileSize>500MB</maxFileSize>      
         	</timeBasedFileNamingAndTriggeringPolicy>   
@@ -88,7 +88,7 @@
 		<file>${LOG_HOME}/${LOG_SYSTEM}-common.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志文件输出的文件名 -->
-			<FileNamePattern>${LOG_HOME}/${LOG_SYSTEM}-common-%d{yyyy-MM-dd}.log</FileNamePattern>
+			<FileNamePattern>${LOG_HOME}/${LOG_SYSTEM}-common-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">       
             	<maxFileSize>500MB</maxFileSize>      
         	</timeBasedFileNamingAndTriggeringPolicy>   
@@ -105,7 +105,7 @@
 		<file>${LOG_HOME}/error.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志文件输出的文件名 -->
-			<FileNamePattern>${LOG_HOME}/error-%d{yyyy-MM-dd}.log</FileNamePattern>
+			<FileNamePattern>${LOG_HOME}/error-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">       
             	<maxFileSize>500MB</maxFileSize>      
         	</timeBasedFileNamingAndTriggeringPolicy>   
@@ -128,7 +128,7 @@
 		<file>${LOG_HOME}/default.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志文件输出的文件名 -->
-			<FileNamePattern>${LOG_HOME}/default-%d{yyyy-MM-dd}.log</FileNamePattern>
+			<FileNamePattern>${LOG_HOME}/default-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">       
             	<maxFileSize>500MB</maxFileSize>      
         	</timeBasedFileNamingAndTriggeringPolicy>   
@@ -146,7 +146,7 @@
 		<file>${LOG_HOME}/digest.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志文件输出的文件名 -->
-			<FileNamePattern>${LOG_HOME}/digest-%d{yyyy-MM-dd}.log</FileNamePattern>
+			<FileNamePattern>${LOG_HOME}/digest-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">       
             	<maxFileSize>500MB</maxFileSize>      
         	</timeBasedFileNamingAndTriggeringPolicy>   
