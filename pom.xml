@@ -60,26 +60,26 @@
 		<repository>
 			<id>releases</id>
 			<name>bazaar releases</name>
-			<url>http://192.168.4.9:8081/nexus/content/repositories/releases/</url>
+			<url>http://mvn.dev.baiwang-inner.com:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>bazaar snapshots</name>
-			<url>http://192.168.4.9:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://mvn.dev.baiwang-inner.com:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<repositories>
 		<repository>
 			<id>nexus</id>
 			<name>Team Nexus Repository</name>
-			<url>http://192.168.4.9:8081/nexus/content/groups/public</url>
+			<url>http://mvn.dev.baiwang-inner.com:8081/nexus/content/groups/public</url>
 		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
 			<id>nexus</id>
 			<name>Team Nexus Repository</name>
-			<url>http://192.168.4.9:8081/nexus/content/groups/public</url>
+			<url>http://mvn.dev.baiwang-inner.com:8081/nexus/content/groups/public</url>
 		</pluginRepository>
 	</pluginRepositories>
 	<build>
