@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/charles-message.iml" filepath="$PROJECT_DIR$/.idea/charles-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-common/custom-common.iml" filepath="$PROJECT_DIR$/custom-common/custom-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-dao/custom-dao.iml" filepath="$PROJECT_DIR$/custom-dao/custom-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-integration/custom-integration.iml" filepath="$PROJECT_DIR$/custom-integration/custom-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-service/custom-service.iml" filepath="$PROJECT_DIR$/custom-service/custom-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-startup/custom-startup.iml" filepath="$PROJECT_DIR$/custom-startup/custom-startup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-web/custom-web.iml" filepath="$PROJECT_DIR$/custom-web/custom-web.iml" />
+    </modules>
+  </component>
+</project>
